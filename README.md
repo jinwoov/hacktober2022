@@ -3,7 +3,7 @@
 ## 👻Introduction👻
 
 This repository is design for any levels to easily contibute and learn about how to participate in open source project. There will be set of three pull requests **separately**, in order to get acknowledged by Hacktoberfest official. Please let me know if you want any changes to the format. I hope you enjoy!! 🎃
-
+ 
 ---
 
 ## How to contribute? ✅
@@ -31,7 +31,7 @@ This repository is design for any levels to easily contibute and learn about how
 Write a quick intro about yourself. Format is provided below. If you need an example click [here](./1-Intro/jin.md)
 1. Create a file under `/1-Intro` folder with your name or nickname
 2. Add a below template and fill those fields out
-3. Create a pull request
+3. Create a pull request 
 
 ```md
 - Name: (Name)

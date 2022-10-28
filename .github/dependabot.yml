@@ -6,4 +6,3 @@ updates:
       interval: weekly
       day: "sunday"
       time: "11:00"
-      timezone: "06:00 UTC"

@@ -23,5 +23,5 @@ func main() {
 
 	log.SetFormatter(&log.JSONFormatter{})
 	log.Infoln("Serving the website on 4040")
-	log.Errorln(http.ListenAndServe(":4040", handlers.CORS()(mux)))
+	log.Fatal(http.ListenAndServe(":4040", handlers.CORS()(mux)))
 }

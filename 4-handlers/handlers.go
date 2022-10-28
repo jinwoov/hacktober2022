@@ -16,7 +16,6 @@ func getHelloWorld(w http.ResponseWriter, r *http.Request) {
 	helloWorld := `Hello world!, remember Kindness is not what you do, but who you are!`
 
 	w.WriteHeader(http.StatusOK)
-	
 	if err := json.NewEncoder(w).Encode(helloWorld); err != nil {
 		http.Error(w, ErrBadRequest.Error(), http.StatusBadRequest)
 	}

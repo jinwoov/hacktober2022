@@ -59,3 +59,12 @@ Lets create a cool script. Add any cool script under `/3-Scripts` folder. If you
 1. Within `/3-Scripts` folder, create a new folder
 2. Add a scripts in any language that you are comfortable in
 3. Make a pull request
+
+---
+### *Challenge #4*🎃
+### 4. Add code or comments
+I've created simple Go code in the `/4-handlers` folder. Lets expand it. Either add more code, add comments, or tests! I appreciate any contribution!
+
+---
+  
+**Thank you for participating!**

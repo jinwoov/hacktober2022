@@ -1,4 +1,4 @@
-name: golangci_lint
+name: linter
 
 on:
   push:
@@ -8,6 +8,10 @@ on:
     types:
       - "opened"
       - "synchronize"
+
+concurrency: 
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   golangci-lint:

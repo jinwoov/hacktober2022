@@ -13,7 +13,7 @@ func main() {
 		name = "Jin"
 	}
 
-	fmt.Println(HelloWorld(name))
+	fmt.Print(HelloWorld(name))
 }
 
 // Hello world project!

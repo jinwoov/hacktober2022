@@ -1,0 +1,4 @@
+- Name: Kimberly
+- Location: Seattle
+- Fun Fact: I can talk with my mouth closed.
+- Link: [Github] (https://github.com/kddills)
